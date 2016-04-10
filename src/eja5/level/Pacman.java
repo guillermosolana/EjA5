@@ -7,7 +7,6 @@ import eja5.graphics.Texture;
 import eja5.graphics.VertexArray;
 import eja5.input.Input;
 import eja5.maths.Matrix4f;
-import eja5.maths.PtoMedio;
 import eja5.maths.Vector3f;
 
 public class Pacman {
@@ -45,8 +44,6 @@ public class Pacman {
 				1, 1
 		};
 		
-		//PtoMedio pto = new PtoMedio().getPtoMedio(px, px*2, py, py*2);
-		//ptom = new float[]{pto.getX(), pto.getY() };
 		
 		mesh = new VertexArray(vertices, indices, tcs);
 		texture = new Texture("res/pacman.gif");

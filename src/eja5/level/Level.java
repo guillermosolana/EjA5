@@ -3,8 +3,6 @@ package eja5.level;
 import java.util.Random;
 
 import eja5.graphics.Shader;
-import eja5.graphics.Texture;
-import eja5.graphics.VertexArray;
 import eja5.level.Pacman;
 import eja5.maths.Matrix4f;
 import eja5.maths.Vector3f;
